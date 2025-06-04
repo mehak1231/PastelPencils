@@ -105,7 +105,7 @@ Follow these steps to set up the project locally on your machine:
 ### 1️⃣ Clone the Repository
 
 <pre>
-git clone https://github.com/yourusername/pastel-pencils.git
+git clone https://github.com/yourusername/PastelPencils.git
 cd pastel-pencils
 </pre>
 
