@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: rgba(255, 242, 239, 0.95);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 260px;
+  padding: 16px;
+  z-index: 1000;
+  font-family: Outfit , sans-serif;
+}
+
+.dropdown-welcome p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.dropdown-welcome span {
+  font-size: 12px;
+  color: #4d4b4b;
+}
+
+.login-btn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 8px;
+  background-color: #ff3f6c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.dropdown-links li {
+  padding: 8px 0;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-links li:hover {
+  background-color: #f6f6f6;
+}
+
+.dropdown-links hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 8px 0;
+}
+
+.new-tag {
+  background-color: #ff3f6c;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-left: 6px;
+}
+
+.logout {
+  color: #ff3f6c;
+  font-weight: bold;
+}

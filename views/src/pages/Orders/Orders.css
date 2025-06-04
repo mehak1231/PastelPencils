@@ -1,0 +1,127 @@
+.orders-page {
+  padding: 40px 20px;
+  background: #fff4f8;
+  min-height: 100vh;
+}
+
+.orders-page h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.orders-table-wrapper {
+  overflow-x: auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.orders-table thead {
+  background-color: #ff8fa3;
+  color: white;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.orders-table td ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.order-id {
+  font-weight: bold;
+  color: #ff6f91;
+}
+
+.cancel-btn,
+.download-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.cancel-btn {
+  background-color: #f52d1f;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #b91818;
+}
+
+.download-btn {
+  background-color: #069f15;
+  color: white;
+}
+
+.download-btn:hover {
+  background-color: #02690c;
+}
+.orders-container {
+  padding: 20px;
+}
+
+.order-card {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.cancel-btn,
+.download-btn {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cancel-btn {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.download-btn {
+  background-color: #1890ff;
+  color: white;
+}
+
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .orders-table th,
+  .orders-table td {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .cancel-btn,
+  .download-btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
