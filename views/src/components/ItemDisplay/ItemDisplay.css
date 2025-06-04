@@ -1,0 +1,54 @@
+.item-display {
+  margin: 30px;
+}
+
+.item-display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+.item-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
+.category-section {
+  padding: 50px;
+  scroll-margin-top: 100px; /* Ensures smooth scroll target */
+  border-bottom: 1px solid #eee;
+}
+
+.category-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.category-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* add */
+
+.category-section {
+  scroll-margin-top: 100px; /* adjust this based on your fixed header */
+  padding: 40px 0;
+}
+
+.category-title {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #444;
+}
+
+.loading-msg {
+  padding: 50px;
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
